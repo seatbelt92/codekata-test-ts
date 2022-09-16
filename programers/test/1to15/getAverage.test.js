@@ -1,4 +1,4 @@
-const { getAverage }= require('../programers/getAverage')
+const { getAverage }= require('../../problems/1to15/getAverage')
 
 describe("getAverage test", ()=>{
     test("arr length err", ()=>{

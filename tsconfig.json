@@ -1,0 +1,26 @@
+// {
+//     "include": [
+//         "src"
+// ,
+// "tests"
+// ],
+//     "compilerOptions": {
+//         "lib": [
+//             "ES6"
+//         ],
+//         "outDir": "build",
+//         "target": "ES6",
+//         "strict": true,
+//         "esModuleInterop": true,
+//         "module": "CommonJS",
+//         "moduleResolution": "node",
+//         "emitDecoratorMetadata": true,
+//         "experimentalDecorators": true,
+//         "sourceMap": true,
+//         "strictPropertyInitialization": false
+//     },
+//     "exclude": [
+//         "node_modules",
+//         "tests",
+//     ]
+// }
