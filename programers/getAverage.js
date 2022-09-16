@@ -6,7 +6,7 @@ function getAverage(arr) {
         throw new Error('arr의 원소는 -10,000이상 10,000이하인 정수입니다');
     }
     else {
-        return arr.reduce(function (acc, cur) { return acc + cur; })/arr.length;
+        return arr.reduce((acc, cur)=> acc + cur)/arr.length
     }
 }
 module.exports = {
